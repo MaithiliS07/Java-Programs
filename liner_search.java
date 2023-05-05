@@ -2,7 +2,9 @@ import java.util.Scanner;
 class liner_search {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a[10], n, x;
+        int a[];
+        int n, x;
+        a = new int[10];
         System.out.println("Enter number of elements: ");
         n = sc.nextInt();
         System.out.println("\nEnter elements of array: ");
